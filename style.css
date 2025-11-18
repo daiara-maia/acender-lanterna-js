@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Define a cor de fundo inicial como escura (apagada) */
+    background-color: #222; 
+    color: white;
+    /* Adiciona uma transição suave ao fundo */
+    transition: background-color 0.5s;
+}
+
+img {
+   border-radius: 10px;
+   transition: 0.3s;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
