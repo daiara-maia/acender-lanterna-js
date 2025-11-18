@@ -4,13 +4,13 @@ const lanterna = document.getElementById("lanterna");
 // pois o prompt original usava botões, que é uma funcionalidade mais clara.
 
 function acender() {
-    lanterna.src = "on_lanterna.png";
+    lanterna.src = "lanterna.png";
     // Mudar o fundo para simular a luz acesa (amarelo claro)
     document.body.style.backgroundColor = "#ffeb3b22"; 
 }
 
 function apagar() {
-    lanterna.src = "off_lanterna.png";
+    lanterna.src = "lanternaon.png";
     // Mudar o fundo para simular a luz apagada (escuro)
     document.body.style.backgroundColor = "#222"; 
 }
